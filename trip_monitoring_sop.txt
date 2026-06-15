@@ -1,0 +1,19 @@
+Trip Monitoring SOP
+
+1. Delayed Trip:
+A trip is delayed if onward travel duration is above the configured threshold.
+
+2. Geofence Miss:
+A trip is geofence miss when the vehicle does not hit the configured unloading/customer geofence.
+
+3. Data Loss / EPF:
+EPF means external power failure or device power disconnection. Data loss means GPS packets are missing or tracking quality is poor.
+
+4. NDD:
+NDD means no destination detection. It can happen due to GPS loss, wrong geofence, or incomplete unloading event capture.
+
+5. Recommended Action:
+- Delay: validate route, unloading TAT, customer hold, transporter issue.
+- Geofence Miss: validate geofence coordinates and radius.
+- Data Loss: check device wiring, power supply, GPS health.
+- NDD: validate actual unloading location and trip event continuity.
