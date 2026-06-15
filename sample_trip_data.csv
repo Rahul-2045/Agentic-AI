@@ -1,0 +1,9 @@
+Trip Status,Trip Remark,Vehicle,Transporter Name,DI No,Customer Name,Destination,Onwards Travel Duration(Hrs.Mins),Geofence Hit Miss Status,Accountability
+TRIP MONITORED,GEOFENCE HIT,KA01AB1234,ABC Logistics,6991579188,Customer A,Bangalore,8:30,HIT,Customer
+TRIP MONITORED,DEV (0-15) KM,KA02CD5678,XYZ Transport,6991579189,Customer B,Hubli,12:45,MISS,Customer
+NDD-EPF,NDD-EPF,KA03EF9012,ABC Logistics,6991579190,Customer C,Gadag,0:00,MISS,Data Loss
+TRIP NOT MONITORED,DATA LOSS 5%,KA04GH3456,PQR Roadlines,6991579191,Customer D,Koppal,5:20,MISS,Data Loss
+TRIP MONITORED,GEOFENCE HIT,KA05IJ7890,XYZ Transport,6991579192,Customer E,Haveri,15:10,HIT,Transporter
+TRIP MONITORED,DEV (25-40) KM,KA06KL1111,ABC Logistics,6991579193,Customer F,Dharwad,18:35,MISS,Transporter
+TRIP MONITORED,DATA LOSS 3%,KA07MN2222,PQR Roadlines,6991579194,Customer G,Belagavi,22:20,MISS,Data Loss
+TRIP MONITORED,NDD,KA08OP3333,XYZ Transport,6991579195,Customer H,Mysore,11:10,MISS,Customer
